@@ -4,11 +4,11 @@
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum minus ratione consequatur similique sit suscipit, ea voluptas impedit cumque inventore ipsam dolorum sapiente molestias sint quaerat rem assumenda necessitatibus.</p>
   
       <List 
-      itemType="CITY"
+      itemType="Cities"
       :listItems="['Marrakech', 'Rabat', 'Tanger', 'Asila']" />
       
       <List 
-      itemType="FRUIT"
+      itemType="Fruit"
       :listItems="['Orange', 'Pomme', 'Bananne', 'Poire']" />
   
   </div>

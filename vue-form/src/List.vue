@@ -6,8 +6,8 @@
         {{item}}
       </li>
     </ul>
-    <p v-if="listItems.length > 4">There are {{listItems.length}} {{itemType.toLowerCase()}}</p>
-    <p v-else>There are no {{itemType.toLowerCase()}}</p>
+    <p v-if="listItems.length > 0">There are {{listItems.length}} {{itemType.toLowerCase()}}.</p>
+    <p v-else>There are no {{itemType.toLowerCase()}}.</p>
   </div>
 </template>
 
@@ -15,10 +15,10 @@
 export default {
   props: {
     listItems: {
-      default: ''
+      default: () => []
     },
       itemType: {
-      default: () => []
+      default:  ''
     },
   }
   
